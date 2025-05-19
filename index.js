@@ -63,6 +63,7 @@ async function run() {
             const result = await newAppsCollection.insertOne(newUser);
             res.send(result)
 
+
         })
 
 
